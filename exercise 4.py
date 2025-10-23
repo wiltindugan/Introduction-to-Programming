@@ -20,7 +20,7 @@ for country, capital in quiz.items():
     answer=input(f"What is the capital of {country}? ")
     if answer.lower()==capital.lower():
         print("Correct!")
-        score+=1
+        score+=2
     else:
         print(f"nope wrong! The correct answer is {capital}.")
 print(f"Your total score is {score} out of {len(quiz)}.")
