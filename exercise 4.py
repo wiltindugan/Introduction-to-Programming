@@ -17,7 +17,7 @@ quiz={
 }
 score=0
 for country, capital in quiz.items():
-    answer=input(f"What is the capital of {country} ")
+    answer=input(f"What is the capital of {country}? ")
     if answer.lower()==capital.lower():
         print("Correct!")
         score+=1
